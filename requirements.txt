@@ -10,3 +10,4 @@ tqdm
 pytest
 black
 pre-commit
+scikit-learn>=1.2
