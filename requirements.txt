@@ -10,6 +10,4 @@ tqdm
 pytest
 black
 pre-commit
-TA-Lib
-pynance
 
