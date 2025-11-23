@@ -59,7 +59,31 @@ You can find the workflow in:
 
 ## 📊 Features
 
-- Clean and modular Python code
-- Automated testing pipeline
-- Organized project structure
-- Easy to extend with new tasks or features
+### Task 1: Git & Environment Setup
+
+- Repository created and linked to a local environment using SSH
+- Clear directory structure for code, tests, data, and reports
+- Feature branches for tasks (task-1, task-2) with pull requests to merge into main
+- Python virtual environment with all dependencies installed
+- Automated testing pipeline configured for CI
+
+### Task 2: Quantitative Stock Analysis
+
+- Loaded and prepared six stock CSV files (AAPL, AMZN, GOOG, META, MSFT, NVDA)
+- Normalized column names and forward/back-filled missing data
+- Calculated technical indicators using Finta (SMA 20/50, EMA 20, RSI 14, MACD)
+   Note: TA-Lib could not be installed due to compilation issues, so Finta was used as an alternative
+- Computed financial metrics using PyNance (Sharpe Ratio, Annualized Return, Annualized Volatility, Max Drawdown)
+- Generated visualizations:
+    - Close Price + Moving Averages
+    - RSI(14) with overbought/oversold thresholds
+    - MACD, Signal line, and Histogram
+- Saved cleaned and enriched datasets as .parquet for future modeling or dashboard integration
+
+## 📦 Deliverables Ready
+
+- GitHub repository with branches task-1 and task-2
+- Python environment set up and fully reproducible
+- Cleaned and enriched datasets for six stocks
+- Visualizations for technical indicators
+- Quantitative metrics table per stock
